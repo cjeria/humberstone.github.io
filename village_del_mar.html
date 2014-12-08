@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Humberstone Construction Company</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+  <link href="css/main.css" rel="stylesheet" type="text/css" />
+  <script src="jquery.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+//Larger thumbnail preview
+
+$("ul.thumb li a").hover(function() {
+		var mainImage = $(this).attr("href"); //Find Image Name
+		$("#main_view img").attr({ src: mainImage });
+		return false;
+});
+
+//Swap Image on Click
+	$("ul.thumb li a").click(function() {
+
+		var mainImage = $(this).attr("href"); //Find Image Name
+		$("#main_view img").attr({ src: mainImage });
+		return false;
+	});
+
+});
+</script>
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+	<div id="wrapper">
+		<a href="index.html"><img src="images/logo.jpg" border="0"/></a>
+        <div id="nav"><!-- InstanceBeginEditable name="nav" -->
+        <ul id="main_nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="history.html" id="history_btn">History</a></li>
+          <li><a href="projects.html" id="clients_btn"  class="on">Projects</a></li>
+          <li><a href="services.html" id="services_btn">Services</a></li>
+          <li><a href="contact.html" id="contact_btn">Contact Us</a></li>
+        </ul>
+        <!-- InstanceEndEditable --></div>
+        <!-- InstanceBeginEditable name="EditRegion3" -->
+        <div id="main">
+
+            <div id="left">
+              <h2>Project:</h2>
+                <h1>Village Del Mar</h1>
+
+              <h2>Description:</h2>
+
+              <p>Three-story condominium building located in Miami Shores. Canal front, private boat docking, and  enclosed balconies. </p>
+
+              <h2>Role:</h2>
+              <p>Complete construction of shell, dockage, and subcontracting of necessary trades. </p>
+
+            </div>
+            <div id="main_view">
+            <img src="images/village/IMG_6296.JPG" />
+            </div>
+            <div id="thumbs">
+            <ul class="thumb">
+            <li><a href="images/village/IMG_6296.JPG"> <img src="images/village/IMG_6296.JPG" width="50" height="35" />  </a></li>
+            <li><a href="images/village/IMG_6298.JPG"> <img src="images/village/IMG_6298.JPG" width="50" height="35" />  </a></li>
+            <li><a href="images/village/IMG_6301.JPG"><img src="images/village/IMG_6301.JPG" width="50" height="35" />  </a></li>
+            <li><a href="images/village/IMG_6309.JPG"><img src="images/village/IMG_6309.JPG" width="50" height="35" />  </a></li>
+            <li><a href="images/village/IMG_6313.JPG"> <img src="images/village/IMG_6313.JPG" width="50" height="35" />  </a></li>
+            <li><a href="images/village/IMG_6314.JPG"> <img src="images/village/IMG_6314.JPG" width="50" height="35" />  </a></li>
+            </ul>
+            </div>
+            <a href="temple_beth.html" class="next">NEXT PROJECT</a>
+        </div>
+
+        <!-- InstanceEndEditable -->
+        <div id="bottom">
+          <div class="section">
+            <h2>Projects</h2>
+            <ul id="list">
+              <li><a href="temple_beth.html">Temple Beth Am</a></li>
+              <li><a href="hallmark_of_hollywood.html">Hallmark of Hollywood</a></li>
+              <li><a href="millenium_condos.html">Millennium Condos</a></li>
+              <li><a href="village_del_mar.html">Village Del Mar</a></li>
+            </ul>
+          </div>
+          <div class="section">
+            <h2>Services</h2>
+            <ul id="list">
+              <li>Turn Key Construction </li>
+              <li>Design/Build</li>
+              <li>LEED Projects</li>
+              <li>Developing</li>
+              <li>General Construction</li>
+              <li>Renovations</li>
+            </ul>
+          </div>
+          <div class="section">
+            <h2>Contact Us</h2>
+            <ul>
+              <li>Humberstone Contruction Company </li>
+              <li>14262 SW 140th St. </li>
+              <li>Suite 101</li>
+              <li>Miami, FL 33186</li>
+              <li>T. 786.293.6887 | F. 786.293.6886</li>
+              <li><a href="mailto:Humberstone@bellsouth.net" id="email">Humberstone@bellsouth.net</a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="footer">
+     	 <p><span id="name">© Humberstone Construction Co.</span>  <a href="index.html"> Home</a> | <a href="history.html">Company History</a> | <a href="projects.html">Projects</a> | <a href="services.html">Services</a> | <a href="contact.html">Contact Us </a>  </p>
+     	</div>
+    </div>
+
+</body>
+<!-- InstanceEnd --></html>
